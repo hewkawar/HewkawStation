@@ -2,7 +2,7 @@
   "name": "hewkawstation",
   "displayName": "HewkawStation",
   "description": "VSCode extension for HewkawAr",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.104.0"
   },
