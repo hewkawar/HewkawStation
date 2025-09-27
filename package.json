@@ -17,6 +17,12 @@
         "command": "hewkawstation.generateUUID",
         "title": "Generate UUID at Cursor"
       }
+    ],
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/cpp.json"
+      }
     ]
   },
   "scripts": {

@@ -1,0 +1,15 @@
+{
+    "Emmet C++": {
+        "prefix": "#",
+        "body": [
+            "#include <iostream>",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "    ${1:/* code */}",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Basic C++ program structure"
+    }
+}
