@@ -3,6 +3,8 @@
   "displayName": "HewkawStation",
   "description": "VSCode extension for HewkawAr",
   "version": "1.0.0",
+  "publisher": "hewkawar",
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.104.0"
   },
@@ -31,6 +33,7 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
+    "vscode:postpublish": "vsce publish",
     "compile": "webpack",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
@@ -49,6 +52,7 @@
     "@typescript-eslint/parser": "^8.42.0",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^3.6.2",
     "eslint": "^9.34.0",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.2",
