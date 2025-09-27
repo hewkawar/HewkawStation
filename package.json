@@ -2,7 +2,7 @@
   "name": "hewkawstation",
   "displayName": "HewkawStation",
   "description": "VSCode extension for HewkawAr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "hewkawar",
   "pricing": "Free",
   "engines": {
